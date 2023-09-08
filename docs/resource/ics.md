@@ -6,7 +6,7 @@
 
 由老师整理
 
-2022秋季 <https://ics-ustc.feishu.cn/mindnotes/bmncnJPcRbC0Ct3bnm1dNai8m8b>
+2023秋季 <https://ics-ustc.feishu.cn/mindnotes/N9h3bcBErmnf44n1MbXcuvUXnOb>
 
 ## 机械工业出版社部分教材答案
 
