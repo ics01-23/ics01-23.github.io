@@ -4,9 +4,9 @@
 
 ## C++ 相关参考资料网站
 
-- C/C++参考：<https://en.cppreference.com/w/>
-  - 对应中文网页：<https://zh.cppreference.com/w/>
-- 现代C++教程：<https://changkun.de/modern-cpp/>
+- C/C++参考： <https://en.cppreference.com/w/>
+  - 对应中文网页： <https://zh.cppreference.com/w/>
+- 现代C++教程： <https://changkun.de/modern-cpp/>
 
 ## C++ IO
 

@@ -4,6 +4,7 @@
 
 作为课程组首页： <https://acsa.ustc.edu.cn/ics> 的补充
 
+- 本课程回放链接： <https://v.ustc.edu.cn/1/2023-1/capture-course/CS1002A.01/detail>
 - 本站 GitHub 仓库： <https://github.com/ics01-23/ics01-23.github.io>
   - Issues and PRs are welcomed
 

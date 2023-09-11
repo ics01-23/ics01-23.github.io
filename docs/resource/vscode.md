@@ -12,7 +12,7 @@
 
 先给出 Windows 64bit 机器的懒人链接 <https://vscode.cdn.azure.cn/stable/784b0177c56c607789f9638da7b6bf3230d47a8c/VSCodeUserSetup-x64-1.71.0.exe>。
 
-其余可以去官网下载：<https://code.visualstudio.com/Download>，这里不挂梯子下载速度可能会很慢，可以用国内镜像，把 `az764295.vo.msecnd.net` 替换成 `vscode.cdn.azure.cn`。
+其余可以去官网下载： <https://code.visualstudio.com/Download>，这里不挂梯子下载速度可能会很慢，可以用国内镜像，把 `az764295.vo.msecnd.net` 替换成 `vscode.cdn.azure.cn`。
 
 之后就打开 Installer 自动安装就行了。
 
@@ -20,7 +20,7 @@
 
 这个是编译器套件，包含了 Windows 下的 GCC（C 语言编译器）等。C/C++ 是编译语言，而 VSCode 只是文本编辑器，我们需要为其指定编译器。
 
-下载链接为：<https://sourceforge.net/projects/mingw-w64/files/mingw-w64/>，选择前两项中的一个下载（一般下载 `x86_64_posix-seh` 这一项，seh 和 sjlj 的区别感兴趣的可以自行 google）：
+下载链接为： <https://sourceforge.net/projects/mingw-w64/files/mingw-w64/>，选择前两项中的一个下载（一般下载 `x86_64_posix-seh` 这一项，seh 和 sjlj 的区别感兴趣的可以自行 google）：
 
 <img src="../images/vscode_tutorial/mingw-list.png" style="zoom:50%;" />
 
