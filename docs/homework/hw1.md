@@ -5,7 +5,7 @@
 - 作业可以使用中文或英文完成
 - BB 系统上请提交**电子版 PDF**，允许 LaTeX、Markdown、Word、手写拍照等
 - Deadline: 9月28日 23:30
-- 本次作业 [PDF](./pdf/hw1.pdf)
+- 本次作业 [PDF](/pdf/hw1.pdf)
 
 ## T1
 
