@@ -116,8 +116,6 @@ We've got 2 blackboxes, each of which takes two numbers as input and produces a 
 
 ![Image](./image/hw1-T9.png)
 
-<center>Figure 1.10, P20</center>
-
 You're required to draw circuits that can calculate the following expressions:
 
 1. $y=kx+b$
