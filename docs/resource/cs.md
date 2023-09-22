@@ -10,7 +10,7 @@
 - 系统层面：Computer Systems: A Programmer's Perspective（CSAPP）
   - 推荐阅读教材，选做实验（实验可以在 [官网](http://csapp.cs.cmu.edu/3e/labs.html) 点击每个实验的 Self-Study Handout 和 Writeup 等下载，答案可以在 Github 搜索 CSAPP）
 - 软件编程层面：CS61A
-  - 课程主页： <https://inst.eecs.berkeley.edu/~cs61a/>，可以选择历史学期听课，如 <https://inst.eecs.berkeley.edu/~cs61a/su20> 对应 20 年暑期学期
+  - 课程主页： <https://inst.eecs.berkeley.edu/~cs61a/>, 可以选择历史学期听课，如 <https://inst.eecs.berkeley.edu/~cs61a/su20> 对应 20 年暑期学期
   - 推荐看网课，完成作业实验（视频，作业，实验都在课程主页上有）
 
 ## CS 相关必学的一些工具
@@ -24,8 +24,8 @@
 - Git
   - Git 是一个版本控制系统，借助 Git 可以方便地管理代码，同时也可以方便地和他人协作。
   - 可以参考 Git Book 来学习： <https://git-scm.com/book/zh/v2>
-  - 可视化的 Git 可以看看 <https://marklodato.github.io/visual-git-guide/index-zh-cn.html>
+  - 也可以参考可视化的 Git： <https://marklodato.github.io/visual-git-guide/index-zh-cn.html>
 - GDB
   - GDB 是GNU Debugger的缩写，是一个强大的调试工具，可以帮助我们在程序出错时快速定位错误。
-  - VSCode 下的图形化 GDB的配置参考 [vscode配置](https://ics01-23.github.io/resource/vscode.html) 即可。
-  - 命令行下的 GDB 使用可以看看 <https://beej.us/guide/bggdb/>
+  - VSCode 下的图形化 GDB的配置参考 [vscode配置](./vscode.html) 即可。
+  - 命令行下的 GDB 使用介绍： <https://beej.us/guide/bggdb/>

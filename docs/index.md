@@ -10,7 +10,9 @@
 
 ## 课程通知
 
+作业和实验均通过 [BlackBoard 系统](https://www.bb.ustc.edu.cn/) 提交，请**仔细阅读提交说明**！
+
 - 作业
-  - TBA
+  - 2023-09-22: [作业一](./homework/hw1.html) 已发布，Deadline: **9月28日 23:30**
 - 实验
   - TBA
