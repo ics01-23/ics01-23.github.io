@@ -23,7 +23,7 @@
 
 ## T3
 
-Is there a negative integer that has identical 2's complement representation and original code in binary (8-bit)? If so, what is it? (Answer in decimal)
+Is there a negative integer that has identical 2's complement representation and signed magnitude in binary (8-bit)? If so, what is it? (Answer in decimal)
 
 ## T4
 
@@ -120,7 +120,7 @@ You're required to draw circuits that can calculate the following expressions:
 
 1. $y=kx+b$
 2. $p=(m+n)(m-n)$
-3. The length of the longest edge of a **right triangle** (noted as $c$), given the lengths of the other two edges (noted as $a, b$).
+3. The square of the length of the longest edge of a **right triangle** (noted as $c$), given the lengths of the other two edges (noted as $a, b$).
 4. The weighted average $m$ of:
 
     | Value | Weight |
