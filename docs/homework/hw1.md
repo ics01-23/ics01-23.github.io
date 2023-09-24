@@ -128,6 +128,8 @@ You're required to draw circuits that can calculate the following expressions:
     | $v_1$ | $w_1$  |
     | $v_2$ | $w_2$  |
 
+Here we have $w_1+w_2=1$.
+
 > You can draw the circuits on a physical paper, on a tablet app, or, preferably, on flowchart makers like https://app.diagrams.net/ .
 
 ## T10
