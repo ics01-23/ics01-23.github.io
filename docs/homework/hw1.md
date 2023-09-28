@@ -76,7 +76,7 @@ What is the **smallest number** that can be represented in IEEE floating point f
 
 ## T7
 
-Can you list all the integers whose IEEE floating point representations are exactly the same as their 2's complement integer representations? (Answer in decimal)
+Can you list all the integers whose IEEE floating point representations are exactly the same as their 2's complement integer representations? For those integers which cannot be represented precisely, we regard the closest floating point number as their floating point representations. (Answer in decimal)
 
 > Hint: You can write a program to find the answer. Type `float` in C language follows the rule of 32bits IEEE floating point format.
 
