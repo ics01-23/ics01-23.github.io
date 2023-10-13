@@ -16,6 +16,7 @@ export const sidebar = {
       text: '作业',
       items: [
         { text: '作业一', link: '/homework/hw1' },
+        { text: '作业二', link: '/homework/hw2' },
       ],
     },
   ],
