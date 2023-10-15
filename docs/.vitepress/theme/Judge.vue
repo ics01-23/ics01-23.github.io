@@ -6,7 +6,7 @@ import lc3Bench from './lc3/lc3_bench'
 import { computed, onMounted, ref, watch, watchEffect } from 'vue'
 
 const instrLimit = ref(1000000)
-const lab = ref('自定义')
+const lab = ref('lab1')
 const labModel = ref(getPreset(lab.value))
 const code = ref('')
 const debug = ref(false)

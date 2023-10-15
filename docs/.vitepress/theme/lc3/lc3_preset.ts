@@ -8,6 +8,27 @@ interface LabPreset {
 }
 
 const labs: Record<string, LabPreset> = {
+  lab1: {
+    testCode: `
+let [number, id] = testcase.split(':').map(Number)
+lc3.memory[0x3100] = number
+lc3.memory[0x3101] = id
+let mask = 1
+let ans  = 0
+let bit  = 16
+if (number % 2 == 0) {
+  number = ~number+1
+}
+while (bit--) {
+  if (!(number & mask)) {
+    ans++
+  }
+  mask = mask + mask
+}
+return ans + (id % 10)`,
+    ansCode: 'return lc3.memory[0x3102]',
+    testCases: '5:12345678, 100:12345678',
+  },
   自定义: {
     testCode: '',
     ansCode: '',
