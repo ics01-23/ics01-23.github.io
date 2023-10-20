@@ -15,5 +15,6 @@
 - 作业
   - 2023-09-22: [作业一](./homework/hw1.html) 已发布，Deadline: **9月28日 23:30**
   - 2023-10-13: [作业二](./homework/hw2.html) 已发布，Deadline: **10月20日 23:30**
+  - 2023-10-20: [作业三](./homework/hw3.html) 已发布，Deadline: **10月27日 23:30**
 - 实验
   - 2023-10-13: [实验一](./labs/lab1.html) 已发布，Deadline: **11月01日 23:30**
