@@ -12,7 +12,7 @@ const labs: Record<string, LabPreset> = {
     testCode: `
 let [number, id] = testcase.split(':').map(Number)
 lc3.memory[0x3100] = number
-lc3.memory[0x3101] = id
+lc3.memory[0x3101] = id % 10
 let mask = 1
 let ans  = 0
 let bit  = 16
