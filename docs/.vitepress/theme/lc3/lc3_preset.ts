@@ -27,7 +27,7 @@ while (bit--) {
 }
 return ans + (id % 10)`,
     ansCode: 'return lc3.memory[0x3102]',
-    testCases: '5:8, 100:12345678',
+    testCases: '5:12345678, 100:12345678',
   },
   自定义: {
     testCode: '',
