@@ -12,8 +12,8 @@ interface CaseResult {
   passed: boolean
 }
 
-export type ExpectedAnsFunc = (lc3: Core, testcase: string) => number
-export type ActualAnsFunc = (lc3: Core) => number
+export type ExpectedAnsFunc = (lc3: Core, testcase: string) => number[]
+export type ActualAnsFunc = (lc3: Core) => number[]
 
 function caseTest(
   lc3: Core,
@@ -75,12 +75,12 @@ function caseTest(
   // finish this testcase, save logs
   if (cycles > limit)
     logs.push(`异常 ${testcase}, 超出最大指令数，请调整设置，或者可能发生了死循环`)
-  else if (expectedAns === actualAns)
+  else if (JSON.stringify(expectedAns) === JSON.stringify(actualAns))
     logs.push(`通过 ${testcase}, 指令数: ${cycles}, 输出: ${actualAns}`)
   else
     logs.push(`失败 ${testcase}, 指令数: ${cycles}, 输出: ${actualAns}, 预期: ${expectedAns}`)
 
-  return { cycles, logs, passed: expectedAns === actualAns }
+  return { cycles, logs, passed: JSON.stringify(expectedAns) === JSON.stringify(actualAns) }
 }
 
 export interface BenchResult {

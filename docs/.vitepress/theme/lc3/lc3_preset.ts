@@ -16,7 +16,7 @@ let mask = 1
 let ans  = 0
 let bit  = 16
 if (number % 2 == 0) {
-  number = ~number+1
+  number = ~number + 1
 }
 while (bit--) {
   if (!(number & mask)) {
@@ -24,8 +24,8 @@ while (bit--) {
   }
   mask = mask + mask
 }
-return ans + (id % 10)`,
-    ansCode: 'return lc3.memory[0x3102]',
+return [id % 10, ans + (id % 10)]`,
+    ansCode: 'return [lc3.memory[0x3101], lc3.memory[0x3102]]',
     testCases: '5:12345678, 100:12345678',
   },
   自定义: {
