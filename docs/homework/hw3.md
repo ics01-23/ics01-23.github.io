@@ -6,6 +6,7 @@
 - BB 系统上请提交 **电子版 PDF**，允许 LaTeX、Markdown、Word、手写拍照等
 - Deadline: 10 月 27 日 23:30，**逾期 0 分**
 - 本次作业 [PDF](/pdf/hw3.pdf)
+- [答案](/pdf/ans3.pdf) 已发布
 
 ## T1
 
