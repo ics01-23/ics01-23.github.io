@@ -28,6 +28,22 @@ return [id % 10, ans + (id % 10)]`,
     ansCode: 'return [lc3.memory[0x3101], lc3.memory[0x3102]]',
     testCases: '5:12345678, 100:12345678',
   },
+  lab2: {
+    testCode: `
+let [n] = testcase.split(':').map(Number)
+lc3.memory[0x3102] = n
+let f = 3
+let d = 1
+while (--n) {
+  f = 2 * (f + d) % 4096
+  if (f % 8 == 0 | f % 10 == 8) {
+    d = -d
+  }
+}
+return [f]`,
+    ansCode: 'reutrn [lc3.memory[0x3103]]',
+    testCases: '1:3, 2:8, 3:14, 4:26',
+  },
   自定义: {
     testCode: '',
     ansCode: '',
