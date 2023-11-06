@@ -42,7 +42,7 @@ while (--n) {
 }
 return [f]`,
     ansCode: 'reutrn [lc3.memory[0x3103]]',
-    testCases: '1:3, 2:8, 3:14, 4:26',
+    testCases: '1, 2, 3, 4',
   },
   自定义: {
     testCode: '',
