@@ -40,8 +40,8 @@ while (--n) {
     d = -d
   }
 }
-return [f]`,
-    ansCode: 'reutrn [lc3.memory[0x3103]]',
+return f`,
+    ansCode: 'return lc3.memory[0x3103]',
     testCases: '1, 2, 3, 4',
   },
   自定义: {
