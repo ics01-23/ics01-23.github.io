@@ -65,7 +65,12 @@ if (str1.length < str2.length) {
 } else {
   return 0;
 }`,
-    ansCode: 'return lc3.memory[0x3300]',
+    ansCode: `
+if (lc3.memory[0x3300] > 32767) {
+  return lc3.memory[0x3300] - 65536;
+} else {
+  return lc3.memory[0x3300];
+}`,
     testCases: 'DsTAs:DstA, DsTAs:DsTA',
   },
   自定义: {
