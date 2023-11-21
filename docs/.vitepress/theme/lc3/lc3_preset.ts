@@ -64,10 +64,9 @@ if (str1.length < str2.length) {
   return str1.charCodeAt(str2.length);
 } else {
   return 0;
-}
-    `,
+}`,
     ansCode: 'return lc3.memory[0x3300]',
-    testCases: 'DsTAs:DstA, DsTAs:DsTA'
+    testCases: 'DsTAs:DstA, DsTAs:DsTA',
   },
   自定义: {
     testCode: '',
