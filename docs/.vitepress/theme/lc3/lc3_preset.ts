@@ -44,6 +44,31 @@ return f`,
     ansCode: 'return lc3.memory[0x3103]',
     testCases: '1, 2, 3, 4',
   },
+  lab3: {
+    testCode: `
+let [str1, str2] = testcase.split(':')
+for (let i = 0; i < str1.length; i++) {
+  lc3.memory[0x3100 + i] = str1.charCodeAt(i);
+}
+for (let i = 0; i < str2.length; i++) {
+  lc3.memory[0x3200 + i] = str2.charCodeAt(i);
+}
+for (let i = 0; i < Math.min(str1.length, str2.length); i++) {
+  if (str1.charCodeAt(i) != str2.charCodeAt(i)) {
+    return str1.charCodeAt(i) - str2.charCodeAt(i);
+  }
+}
+if (str1.length < str2.length) {
+  return -str2.charCodeAt(str1.length);
+} else if (str1.length > str2.length) {
+  return str1.charCodeAt(str2.length);
+} else {
+  return 0;
+}
+    `,
+    ansCode: 'return lc3.memory[0x3300]',
+    testCases: 'DsTAs:DstA, DsTAs:DsTA'
+  },
   自定义: {
     testCode: '',
     ansCode: '',
