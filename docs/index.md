@@ -13,11 +13,11 @@
 作业和实验均通过 [BlackBoard 系统](https://www.bb.ustc.edu.cn/) 提交，请**仔细阅读提交说明**！
 
 - 作业
-  - 2023-09-22: [作业一](./homework/hw1.html) 已发布，Deadline: **9月28日 23:30**
-  - 2023-10-13: [作业二](./homework/hw2.html) 已发布，Deadline: **10月20日 23:30**
-  - 2023-10-20: [作业三](./homework/hw3.html) 已发布，Deadline: **10月27日 23:30**
-  - 2023-11-03: [作业四](./homework/hw4.html) 已发布，Deadline: **11月10日 23:30**
+  - 2023-09-22: [作业一](./homework/hw1.html) 已发布，Deadline: **09 月 28 日 23:30**
+  - 2023-10-13: [作业二](./homework/hw2.html) 已发布，Deadline: **10 月 20 日 23:30**
+  - 2023-10-20: [作业三](./homework/hw3.html) 已发布，Deadline: **10 月 27 日 23:30**
+  - 2023-11-03: [作业四](./homework/hw4.html) 已发布，Deadline: **11 月 10 日 23:30**
 - 实验
-  - 2023-10-13: [实验一](./labs/lab1.html) 已发布，Deadline: **11月05日 23:30**
-  - 2023-11-06: [实验二](./labs/lab2.html) 已发布，Deadline: **11月22日 23:30**
-  - 2023-11-21: [实验三](./labs/lab3.html) 已发布，Deadline: **12月01日 23:30**
+  - 2023-10-13: [实验一](./labs/lab1.html) 已发布，Deadline: **11 月 05 日 23:30**
+  - 2023-11-06: [实验二](./labs/lab2.html) 已发布，Deadline: **11 月 22 日 23:30**
+  - 2023-11-21: [实验三](./labs/lab3.html) 已发布，Deadline: **12 月 01 日 23:30**
