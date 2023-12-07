@@ -73,6 +73,52 @@ if (lc3.memory[0x3300] > 32767) {
 }`,
     testCases: 'DsTAs:DstA, DsTAs:DsTA',
   },
+  lab4: {
+    testCode: `
+let n = Number(testcase);
+lc3.memory[0x3100] = n;
+let arr = [];
+
+function f(n, m) {
+  if (n == 0) {
+    return m;
+  } 
+  if (n == 1) {
+    arr.push(m | 1);
+    return m | 1;
+  }
+  let s = f(n - 2, m) | (1 << (n - 1));
+  arr.push(s);
+  return f(n - 1, g(n - 2, s));
+}
+
+function g(n, m) {
+  if (n == 0) {
+    return m;
+  }
+  if (n == 1) {
+    arr.push(m & -2);
+    return m & -2;
+  }
+  let s = f(n - 2, g(n - 1, m)) & (-2 << (n - 1));
+  arr.push(s);
+  return g(n - 1, s);
+}
+
+f(n, 0);
+return arr;
+`,
+    ansCode: `
+let arr = [];
+let i = 0x3101;
+while (lc3.memory[i] != 0) {
+  arr.push(lc3.memory[i]);
+  i++;
+}
+return arr;
+`,
+    testCases: '3',
+  },
   自定义: {
     testCode: '',
     ansCode: '',
