@@ -102,7 +102,7 @@ function g(n, m) {
   }
   let s = f(n - 2, g(n - 1, m)) & (-2 << (n - 1));
   arr.push(s);
-  return g(n - 1, s);
+  return g(n - 2, s);
 }
 
 f(n, 0);
