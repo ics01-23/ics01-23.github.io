@@ -165,7 +165,7 @@ const bench = () => {
       </f-button>
     </div>
 
-    <div v-if="outputs.logs.length" class="card" style="margin-top: 2em">
+    <div v-if="outputs.logs.length" class="card" style="margin-top: 2em; word-break: break-all">
       <span class="label">{{ outputs.state === 'assembly' ? '汇编' : outputs.state === 'machine' ? '机器码' : '' }}评测</span>
       {{ outputs.logs[0] }}
       <ul>
