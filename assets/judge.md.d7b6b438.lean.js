@@ -71,10 +71,10 @@ function g(n, m) {
     return m;
   }
   if (n == 1) {
-    arr.push(m & -2);
+    arr.push(m & ~1);
     return m & -2;
   }
-  let s = f(n - 2, g(n - 1, m)) & (-2 << (n - 1));
+  let s = f(n - 2, g(n - 1, m)) & ~(1 << (n - 1));
   arr.push(s);
   return g(n - 2, s);
 }
