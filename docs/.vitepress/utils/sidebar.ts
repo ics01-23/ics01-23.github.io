@@ -33,6 +33,7 @@ export const sidebar = {
         { text: '实验三', link: '/labs/lab3' },
         { text: '实验四', link: '/labs/lab4' },
         { text: '实验五', link: '/labs/lab5' },
+        { text: '实验六', link: '/labs/lab6' },
       ],
     },
   ],
