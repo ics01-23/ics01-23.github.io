@@ -1,5 +1,5 @@
 import{e as He,r as W,f as re,g as ze,w as Ae,h as Ke,o as M,c as P,b as E,i as G,v as te,F as Ee,j as Fe,u as H,k as De,n as Re,t as X,l as ve,m as xe,p as Ye,d as me,q as we,s as _e,x as qe,a as We}from"./app.a8141f3f.js";const Ne={lab1:{testCode:`
-let [number, id] = testcase.split(':').map(Number)
+let [number] = testcase.split(':').map(Number)
 lc3.memory[0x3100] = number
 let mask = 1
 let ans  = 0
@@ -13,7 +13,7 @@ while (bit--) {
   }
   mask = mask + mask
 }
-return [id % 10, ans + (id % 10)]`,ansCode:"return [lc3.memory[0x3101], lc3.memory[0x3102]]",testCases:"5:12345678, 100:12345678"},lab2:{testCode:`
+return [lc3.memory[0x3101], ans + lc3.memory[0x3101]]`,ansCode:"return [lc3.memory[0x3101], lc3.memory[0x3102]]",testCases:"5, 100"},lab2:{testCode:`
 let [n] = testcase.split(':').map(Number)
 lc3.memory[0x3102] = n
 let f = 3
