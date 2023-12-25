@@ -10,7 +10,7 @@ interface LabPreset {
 const labs: Record<string, LabPreset> = {
   lab1: {
     testCode: `
-let [number, id] = testcase.split(':').map(Number)
+let [number] = testcase.split(':').map(Number)
 lc3.memory[0x3100] = number
 let mask = 1
 let ans  = 0
@@ -24,9 +24,9 @@ while (bit--) {
   }
   mask = mask + mask
 }
-return [id % 10, ans + (id % 10)]`,
+return [lc3.memory[0x3101], ans + lc3.memory[0x3101]]`,
     ansCode: 'return [lc3.memory[0x3101], lc3.memory[0x3102]]',
-    testCases: '5:12345678, 100:12345678',
+    testCases: '5, 100',
   },
   lab2: {
     testCode: `
