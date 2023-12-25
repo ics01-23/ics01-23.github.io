@@ -24,9 +24,8 @@ while (bit--) {
   }
   mask = mask + mask
 }
-let id = lc3.memory[0x3101]
-return [id, ans + id]`,
-    ansCode: 'return [lc3.memory[0x3101], lc3.memory[0x3102]]',
+return [ans]`,
+    ansCode: 'return [lc3.memory[0x3102] - lc3.memory[0x3101]]',
     testCases: '5, 100',
   },
   lab2: {
