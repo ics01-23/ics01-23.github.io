@@ -6,7 +6,7 @@
   ```
   PB22******_姓名_LAB7.zip
   ├── PB22******_姓名_report.pdf
-  └── assembler.c/c++
+  └── assembler.c/cpp
   ```
 
 ## 实验说明
