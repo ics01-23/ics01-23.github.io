@@ -8,6 +8,7 @@
   ├── PB22******_姓名_report.pdf
   └── assembler.c/cpp
   ```
+- 本次实验 [测试样例](/test/lab7.zip) 已公开
 
 ## 实验说明
 
